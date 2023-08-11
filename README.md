@@ -1,2 +1,2 @@
-# cairo_finance
+# Cairo Finance
 Cairo finance utilities
