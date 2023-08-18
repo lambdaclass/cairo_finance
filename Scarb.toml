@@ -1,0 +1,14 @@
+[package]
+name = "cairo_finance"
+version = "0.1.0"
+readme = "README.md"
+repository = "https://github.com/lambdaclass/cairo_finance/"
+
+# See more keys and their definitions at https://docs.swmansion.com/scarb/docs/reference/manifest
+
+[dependencies]
+starknet = ">=2.0.1"
+orion = { git = "https://github.com/gizatechxyz/orion.git", rev = "5bd0544" }
+
+
+
