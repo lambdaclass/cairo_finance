@@ -8,7 +8,6 @@ repository = "https://github.com/lambdaclass/cairo_finance/"
 
 [dependencies]
 starknet = ">=2.0.1"
-orion = { git = "https://github.com/gizatechxyz/orion.git", rev = "5bd0544" }
 
 
 
