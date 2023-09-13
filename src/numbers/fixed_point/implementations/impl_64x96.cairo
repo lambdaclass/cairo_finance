@@ -1,6 +1,4 @@
 use debug::PrintTrait;
-use option::OptionTrait;
-use traits::{Into, TryInto};
 
 use cairo_finance::numbers::fixed_point::core::{FixedTrait, FixedType};
 use cairo_finance::numbers::fixed_point::math::math_64x96;
@@ -12,7 +10,8 @@ const HALF_PRIME: felt252 =
 const ONE: u256 = 79228162514264337593543950336; // 2 ** 96
 const ONE_u128: u128 = 79228162514264337593543950336; // 2 ** 96
 const HALF: u128 = 39614081257132168796771975168; // 2 ** 95
-const MAX: u256 = 730750818665451459101842416358141509827966271488; // 2 ** (160 - 1)
+const MAX: u256 = 1461501637330902918203684832716283019655932542975; // (2 ** 160) - 1
+const Q96_RESOLUTION: u128 = 96;
 
 /// IMPLS
 
